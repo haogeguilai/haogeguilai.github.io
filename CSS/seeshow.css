@@ -1,0 +1,26 @@
+#xuanchuan{width:1120px;
+       height:400px;
+	   background-color:#FFD9EC;
+	   margin-top:220px;
+	   margin-left:154px;} 
+li{list-style:none;}  <!-- 去除列表符号-->
+a:hover,a:link{text-decoration:none;} <!-- 去掉文字下划线-->
+.seedh{width:1120px;}	
+.seedh ul{padding:0px;} 
+a{color:black}
+.seedh ul li{position:relative;float:left;width:100px;background-color:#1C86EE;text-align:center;
+             line-height:100px;font-size:20px;font-family:"微软雅黑";
+             }
+.seedh ul li:hover{background-color:#1C86EE;}
+.seedh ul li ul{display:none}	
+.seedh ul li:hover ul{display:block;}
+.seedh ul li:hover li{line-height:30px;background-color:#1C86EE;width:1120px;text-align:left;} 	
+#see01 {display:block;border-radius:-50px}
+#see01 li{line-height:30px;background-color:#1C86EE;width:1120px;text-align:left;}
+#see02{margin-left:-100px;}
+#see03{margin-left:-200px;}
+#see04{margin-left:-300px;}
+#see05{margin-left:-400px;}
+#see06{margin-left:-500px;}
+.seeimg{position:absolute;left:400px;top:150px;}
+.seeimg02{position:absolute;left:300px;top:150px;}     
