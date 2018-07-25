@@ -1,68 +1,401 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CSS3带图标侧边栏垂直手风琴下拉菜单代码</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<title>(*.*)www.forphoebe.com
+</title>
 
-  
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/frame.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/seeshow.css">
+
+
+
 </head>
+<body style="background-color:#EE82EE;">
+<div id="header" style="width:100%;height:80px;background-color:red">
+<div style="background-color:;width:100%;height:80px;"> <img src="img/head3.jpg" width="100%" height="80px" /></div>
 
-<body><script src="/demos/googlegg.js"></script>
-
-  
-<h2 class="title">Menú Acordeon <span>by Pedro Muñoz</span></h2>
-<div class="contenedor-acordeon" id="acordeon-content">
-  <div class="acordeon">
-    <div class="acordeon__head"><img class="acordeon__head--logo" src="https://image.flaticon.com/icons/svg/438/438981.svg" alt="web design"/>
-      <p class="acordeon__head--title">Web Design</p><span class="fa fa-chevron-down icon"></span>
-    </div>
-    <div class="acordeon__body">
-      <div class="acordeon__body__menu">
-        <li><a href="#">Photoshop</a></li>
-        <li><a href="#">Illustrator</a></li>
-        <li><a href="#">Web Layout</a></li>
-      </div>
-    </div>
-  </div>
-  <div class="acordeon">
-    <div class="acordeon__head"><img class="acordeon__head--logo" src="https://image.flaticon.com/icons/svg/186/186303.svg" alt="development"/>
-      <p class="acordeon__head--title">FrontEnd Development</p><span class="fa fa-chevron-down icon"></span>
-    </div>
-    <div class="acordeon__body">
-      <div class="acordeon__body__menu">
-        <li><a href="#">HTML5</a></li>
-        <li><a href="#">CSS3</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </div>
-    </div>
-  </div>
-  <div class="acordeon">
-    <div class="acordeon__head"><img class="acordeon__head--logo" src="https://image.flaticon.com/icons/svg/438/438949.svg" alt="responsive"/>
-      <p class="acordeon__head--title">Responsive Design</p><span class="fa fa-chevron-down icon"></span>
-    </div>
-    <div class="acordeon__body">
-      <div class="acordeon__body__menu">
-        <li><a href="#">Desktop</a></li>
-        <li><a href="#">Mobile</a></li>
-        <li><a href="#">Tablets</a></li>
-        <li><a href="#">Other</a></li>
-      </div>
-    </div>
-  </div>
 </div>
-  <script src='https://use.fontawesome.com/d1ed67737b.js'></script>
+<div class="nav" style="width:100%,background-color:#FFD9EC;height:38px;">
+   <ul class="menu">
+	 
+	    <li style="background-color:#483D8B;"><a href="#">首页导航</a>
+		     <ul class="submenu">
+			    <li><a href="#">关于此站</a></li>
+				<li><a href="others/xiaolv.html">小吕导航</a></li>
+				<li><a href="#">8888</a></li>
+			 </ul>	
+	    </li>		 
+		<li ><a href="others/运动传承/sports.html">运动传承</a>
+		    <ul class="submenu">
+			    <li><a href="others/运动传承/wudong.html">闻鸡起舞</a></li>
+				<li><a href="others/运动传承/jianbu.html">健步如飞</a></li>
+				<li><a href="others/运动传承/denggao.html">登高望远</a></li>
+				<li><a href="#">个人统计</a></li>
+			 </ul>
+		</li>	 
+		<li ><a href="#">思想荟萃</a>
+		     <ul class="submenu">
+			    <li><a href="#">诗歌</a></li>
+				<li><a href="#">小说</a></li>
+				<li><a href="#">杂谈</a></li>
+			 </ul>
+        </li> 			 
+		<li ><a href="#" >趣味乐园</a>
+	         <ul  class="submenu">
+			    <li><a href="#">萌宠出没</a></li>
+				<li><a href="#">佳片推荐</a></li>
+				<li><a href="#">千奇百怪</a></li>
+			 </ul>
+	    </li>		 
+		<li ><a href="others/美食天地/meishitiandi.html" >美食天地</a>
+		     <ul class="submenu">
+			    <li><a href="#">粤菜</a></li>
+				<li><a href="#">湘菜</a></li>
+				<li><a href="#">家常菜</a></li>
+				<li><a href="#">面点</a></li>
+				<li><a href="#">甜品</a></li>
+			 </ul>	
+		</li>
+		<li id="youbian"><a href="#" >心灵栖息</a>
+		     <ul class="submenu">
+			    <li><a href="#">畅叙幽情</a></li>
+				<li><a href="#">梦回故乡</a></li>
+				<li><a href="#">8888</a></li>
+			 </ul>
+		</li>	 
+		
+	</ul>
 
-  
+</div>
+<div id="myCarousel" class="carousel slide" style="width:100%;" >
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		
+    </ol>   
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner"style="width:100%;height:350px;">
+        <div class="item active">
+            <img src="img/chun.jpg" style="width:100%;height:350px;" alt="First slide">
+            <div class="carousel-caption">春</div>
+        </div>
+        <div class="item">
+            <img src="img/xia.jpg"  style="width:100%;height:350px;" alt="Second slide">
+            <div class="carousel-caption">夏</div>
+        </div>
+        <div class="item">
+            <img src="img/qiu.jpg"  style="width:100%;height:350px;" alt="Third slide">
+            <div class="carousel-caption">秋</div>
+		</div>
+		<div class="item">
+            <img src="img/dong.jpg"  style="width:100%;height:350px;" alt="fourth slide">
+            <div class="carousel-caption">冬</div>
+		</div>
+    </div>	
+</div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"  style="height:350px;width:100px;margin-top:118px;">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="height:350px;width:100px;margin-top:118px;">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
 
-    <script  src="js/index.js"></script>
+</div>
+
+<div id="content" style="background-color:#FFD9EC;height:1000px;width:960px;margin:0 auto;">
+   <div id="frame" >  
+        <a id="a1" class="num">5</a>  
+        <a id="a2" class="num">4</a>  
+        <a id="a3" class="num">3</a>  
+        <a id="a4" class="num">2</a>  
+        <a id="a5" class="num">1</a>  
+        <div id="photos" class="play">  
+              <img src="https://n1-q.mafengwo.net/s9/M00/5E/50/wKgBs1akWbyAVj_eAAXJDrqe4t490.jpeg?imageView2%2F2%2Fw%2F680%2Fq%2F90" >  
+              <img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=2f13ded96e81800a7ae8815cd05c589f/4bed2e738bd4b31c794ab3ed85d6277f9e2ff876.jpg" >  
+              <a href=""><img src="https://n4-q.mafengwo.net/s5/M00/8C/75/wKgB3FFetjWAZvp9AALW4VGgg3U45.jpeg?imageView2%2F2%2Fw%2F600%2Fq%2F90" > </a> 
+              <img src="http://n4-q.mafengwo.net/s3/M00/E7/F9/wKgBt0-RMd6l-5kAAANDU-ZpjBA00.jpeg?imageView2%2F2%2Fw%2F600%2Fh%2F600%2Fq%2F90" >  
+              <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1524531814786&di=980612dca16d686d0a84f9fa759ddc46&imgtype=0&src=http%3A%2F%2Fimg0.ph.126.net%2FSGb022OOqWa5XQlKSaCppg%3D%3D%2F1884193494201494973.jpg" >  
+              <ul id="dis">  
+                <li>中国五大名山：东岳泰山</li>  
+                <li>中国五大名山：西岳华山</li>  
+                <li>中国五大名山：南岳衡山</li>  
+                <li>中国五大名山：北岳恒山</li>  
+                <li>中国五大名山：中岳嵩山</li>  
+              </ul>  
+        </div>  
+    </div>
+	
+	
+	  <div id="zhanshi">
+	     <div class="content-nav">
+		    <ul>
+			   <li ><a style="color:#599;"><button  >近期推荐</button></a>
+			     <ul id="zhanshi01"style="">
+				    <li><a href="others/运动传承/wudong1.html">◆史上最简单的游泳教程</a></li>
+					<li><a href="">◆深圳八景之羊台叠翠</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					
+					
+				 </ul>	
+				
+				
+				  
+               </li>				  
+			   <li ><a><button style="margin-left:-8px;">往期回顾</button></a>
+	               <ul class="zhanshi02" style="">
+				    <li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					<li><a href="">[ ]添加内容添加内容</a></li>
+					<li><a href="">[ ]添加内容</a></li>
+					
+				  </ul>
+			   </li>
+              
+			   
+			     
+            </ul>			   
+		 </div>
+	  
+	  
+	
+	  </div>
+	  
+	  
+	  
+	<div id="shiying" style="width:960px;height:120px;margin-top:10px;float:right;">
+        <div class="frame1"><a href="bajing01.html"><img src="img/bajing-1.jpg" title="深圳八景之大鹏所城" width="210" height="120" ></a></div>
+		<div class="frame2"><a href="bajing02.html"><img src="https://b2-q.mafengwo.net/s9/M00/7A/16/wKgBs1gXY2OAR76AAA-MGLA4doU28.jpeg?imageView2%2F2%2Fw%2F680%2Fq%2F90" title="深圳八景之莲山春早" width="210" height="120" ></a></div>
+	    <div class="frame3"><a href="bajing03.html"><img src="http://www.octeast.com/UploadFiles/dhxs/2017/6/201706221206081438.jpg" title="深圳八景之侨城锦绣" width="210" height="120" ></a></div>
+        <div class="frame4"><a href="bajing04.html"><img src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=5bb653bf64380cd7f213aabfc02dc651/2e2eb9389b504fc23eaa1c0ae4dde71191ef6dcc.jpg" title="深圳八景之深南溢彩" width="210" height="120" ></a></div>
+		
+	  </div>
+	  <div id="shiying1" style="width:960px;height:120px;margin-top:10px;float:right;">
+        <div class="framea"><a href="bajing05.html"><img src="https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=a956c6f669224f4a43947b41689efb37/0823dd54564e9258caa4363e9882d158cdbf4e49.jpg" title="深圳八景之梧桐烟云" width="210" height="120" ></a></div>
+        <div class="frameb"><a href="bajing06.html"><img src="http://n3-q.mafengwo.net/s7/M00/69/7C/wKgB6lTJrA2APSsYAACC56e05dE04.jpeg?imageMogr2%2Fthumbnail%2F%21690x450r%2Fgravity%2FCenter%2Fcrop%2F%21690x450%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL3AxLXEubWFmZW5nd28ubmV0L3M4L00wMC82Mi83OS93S2dCcFZodUN6Q0FJa3RIQUFBTkc4TDlCUU0xNjAucG5n%2Fgravity%2FNorthWest%2Fdx%2F20%2Fdy%2F21" title="深圳八景之梅沙踏浪" width="210" height="120" ></a></div>
+        <div class="framec"><a href="bajing07.html"><img src="http://n3-q.mafengwo.net/s5/M00/EE/E1/wKgB3FE7N8GAFKVHAAOO4-pbrM440.jpeg?imageMogr2%2Fthumbnail%2F%21690x450r%2Fgravity%2FCenter%2Fcrop%2F%21690x450%2Fquality%2F90%7Cwatermark%2F1%2Fimage%2FaHR0cDovL3AxLXEubWFmZW5nd28ubmV0L3M4L00wMC82Mi83OS93S2dCcFZodUN6Q0FJa3RIQUFBTkc4TDlCUU0xNjAucG5n%2Fgravity%2FNorthWest%2Fdx%2F20%2Fdy%2F21" title="深圳八景之一街两制" width="210" height="120" ></a></div>
+		<div class="framed"><a href="bajing08.html"><img src="https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=7a32bab7b3389b502cf2e800e45c8eb8/43a7d933c895d143e1a8448a79f082025baf07b8.jpg" title="深圳八景之羊台叠翠" width="210" height="120" ></a></div>
+		
+	  </div>
+	  
+	  
+	  <div id="guanggao"style="margin-top:5px;float:right;"> 
+	    <img width="960px" height="70px" href="#" src="https://img03.51jobcdn.com/im/images/2017/fs/yixia0409_7122wh.gif" >
+	  </div>
+	  
+	  
+	<div id="zhongyao">
+	   <div class="zhongyao-nav">
+	       <ul>
+		      <li><a href="">中药收集</a>
+			     <ul id="zhongyao01">
+				    <li><img src="img/zhongyao.gif" width="700px" height="400px" /></li>
+					
+				</ul>	
+			  </li>	
+			  <li><a href="">民间收集-清热药></a>
+			     <ul id="zhongyao02" style="margin-top:-50px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-降压药></a>
+			     <ul style="margin-top:-100px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-降压药></a>
+			     <ul style="margin-top:-150px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-降压药></a>
+			     <ul style="margin-top:-200px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-清热药></a>
+			     <ul style="margin-top:-250px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-清热药></a>
+			     <ul style="margin-top:-300px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+			  <li><a href="">民间收集-清热药></a>
+			     <ul style="margin-top:-350px;">
+				    <li><a href="">添加biaoti</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+					<li><a href="">添加内容</a></li>
+				</ul>	
+			  </li>
+		      
+	      
+	   
+           </ul> 	   
+	   </div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+    </div>	
+	
+      
+	
 
 
+
+
+
+
+</div>
 
 </body>
-
 </html>
