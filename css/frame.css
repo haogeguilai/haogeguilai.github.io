@@ -1,13 +1,13 @@
-  #frame {/*----------Í¼Æ¬ÂÖ²¥Ïà¿òÈÝÆ÷----------*/  
-            position: absolute; /*--¾ø¶Ô¶¨Î»£¬·½±ã×ÓÔªËØµÄ¶¨Î»*/  
+  #frame {/*----------å›¾ç‰‡è½®æ’­ç›¸æ¡†å®¹å™¨----------*/  
+            position: absolute; /*--ç»å¯¹å®šä½ï¼Œæ–¹ä¾¿å­å…ƒç´ çš„å®šä½*/  
             width: 400px;  
             height: 200px;  
-            overflow: hidden;/*--Ïà¿ò×÷ÓÃ£¬Ö»ÏÔÊ¾Ò»¸öÍ¼Æ¬---*/  
+            overflow: hidden;/*--ç›¸æ¡†ä½œç”¨ï¼Œåªæ˜¾ç¤ºä¸€ä¸ªå›¾ç‰‡---*/  
             border-radius:5px;
             margin-top:3px;
  			
         }  
-        #dis {/*--¾ø¶Ô¶¨Î»·½±ãliÍ¼Æ¬¼ò½éµÄ×Ô¶¯·Ö²¼¶¨Î»---*/  
+        #dis {/*--ç»å¯¹å®šä½æ–¹ä¾¿liå›¾ç‰‡ç®€ä»‹çš„è‡ªåŠ¨åˆ†å¸ƒå®šä½---*/  
             position: absolute;  
             left: -50px;  
             top: 10px;  
@@ -29,14 +29,14 @@
             width:400px;  
             height:200px;  
         }  
-        #photos {/*---ÉèÖÃ×ÜµÄÍ¼Æ¬¿í¶È--Í¨¹ýÎ»ÒÆÀ´´ïµ½ÂÖ²¥Ð§¹û----*/  
+        #photos {/*---è®¾ç½®æ€»çš„å›¾ç‰‡å®½åº¦--é€šè¿‡ä½ç§»æ¥è¾¾åˆ°è½®æ’­æ•ˆæžœ----*/  
             position: absolute;z-index:9px;  
-            width: calc(400px * 5);/*---ÐÞ¸ÄÍ¼Æ¬ÊýÁ¿µÄ»°ÐèÒªÐÞ¸ÄÏÂÃæµÄ¶¯»­²ÎÊý*/  
+            width: calc(400px * 5);/*---ä¿®æ”¹å›¾ç‰‡æ•°é‡çš„è¯éœ€è¦ä¿®æ”¹ä¸‹é¢çš„åŠ¨ç”»å‚æ•°*/  
         }  
         .play{  
             animation: ma 20s ease-out infinite alternate;/**/  
         }  
-        @keyframes ma {/*---Ã¿Í¼Æ¬ÇÐ»»ÓÐÁ½¸ö½×¶Î£ºÎ»ÒÆÇÐ»»ºÍ¾²ÖÃ¡£ÖÐ¼äµÄÐ§¹û¿ÉÒÔÈÎÒâ¶¨ÖÆ----*/  
+        @keyframes ma {/*---æ¯å›¾ç‰‡åˆ‡æ¢æœ‰ä¸¤ä¸ªé˜¶æ®µï¼šä½ç§»åˆ‡æ¢å’Œé™ç½®ã€‚ä¸­é—´çš„æ•ˆæžœå¯ä»¥ä»»æ„å®šåˆ¶----*/  
             0%,20% {        margin-left: 0px;       }  
             25%,40% {       margin-left: -400px;    }  
             45%,60% {       margin-left: -800px;    }  
@@ -114,6 +114,7 @@
 		
 		
 		#zhongyao{float:left;background-color:white;width:960px;height:400px;margin-top:5px;}
+#zhongyao li{list-style:none}
 		.zhongyao-nav{width:260px;height:400px;background-color:green;}
 		.zhongyao-nav>ul{padding:0;}
 		.zhongyao-nav>ul>li{width:260px;line-height:50px;font-size:25px;text-align:center;position:relative;background-color:white;}
@@ -127,7 +128,7 @@
 		.zhongyao-nav>ul>li>a{color:#599;}
 		
 		
-		li{list-style:none}
+		
 	
 		
 		
