@@ -97,6 +97,7 @@
 		.framed:hover img{opacity:0.3 ;}	
 		
 		#zhanshi{background-color:#829;width:500px;height:200px;margin-top:3px;float:right;}
+#zhanshi li{list-style:none;}
 		.content-nav{width:500px;height:40px;background-color:#325;margin-top:-10px;}
 		.content-nav>ul{padding:0;}
 		.content-nav>ul>li{position:relative;float:left;font-size:20px;width:100px;line-height:35px;}
