@@ -12,11 +12,21 @@ body{padding:0;margin:0}
      }
 #div2 h2 {margin:0;
          padding:0;
+	
 		 text-align:center;
 		 font-family:"微软雅黑";
 		 font-size:50px;
-		 color:#573;	
+		 color:#573;
+         z-index:0	 
+		
 		 }
+#div2 input{float:right;margin-top:-100px;
+            background-color:#325;
+            color:#789;	
+			border:1px solid #523;
+			outline:none;
+            font-size:20px;			
+		   }		 
 #jieqi{width:960px;height:800px;border:1px solid #933;margin:0 auto;
        background-color:#FFBBFF;
 	   font-family:"微软雅黑";
@@ -149,7 +159,7 @@ window.onload=function ()
 </script>
 </head>
 <body>
-<div id="div2"><h2>中国二十四节气介绍</h2><a href="index.html">回首页</a></div>
+<div id="div2"><h2>中国二十四节气介绍</h2><a href="index.html"><input  type="button" value="首页" /></a></div>
 <div id="jieqi">
     <ul>
 	  <li class="active"><h2>立春</h2><p>2月3-4日</p></li>
